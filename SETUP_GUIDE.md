@@ -54,10 +54,10 @@ Follow these steps to set up your environment for the coding exercise.
    ```zsh
    brew install git
    ```
-2. Clone the repository (replace `<URL>` with the actual repo URL):
+2. Clone the repository:
    ```zsh
-   git clone <URL>
-   cd <repo-folder>
+   git clone https://github.com/kbraval/draw-exercise.git draw-exercise
+   cd draw-exercise
    ```
 
 ## 5. Open the Project in VS Code
