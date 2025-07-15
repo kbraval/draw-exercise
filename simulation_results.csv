@@ -1,0 +1,329 @@
+run_id,module_name,test_name,simulator,status,exec_time_s,failure_message
+1001,ALU,alu_basic,ModelSim,pass,2.3,
+1002,ALU,alu_overflow,ModelSim,fail,2.7,Overflow not detected
+1003,ALU,alu_stress,ModelSim,pass,15.2,
+1004,ALU,alu_random,ModelSim,pass,1.9,
+1005,ALU,alu_edge,ModelSim,fail,2.5,Incorrect result for edge case
+1006,Memory,mem_read,Questa,pass,3.1,
+1007,Memory,mem_write,Questa,pass,3.0,
+1008,Memory,mem_burst,Questa,fail,12.8,Burst write failed
+1009,Memory,mem_stress,Questa,system_error,60.0,Simulator crashed
+1010,Memory,mem_random,Questa,pass,2.8,
+1011,CPU,cpu_boot,VCS,pass,4.2,
+1012,CPU,cpu_interrupt,VCS,fail,4.5,Interrupt not handled
+1013,CPU,cpu_longrun,VCS,pass,120.0,
+1014,CPU,cpu_random,VCS,pass,3.9,
+1015,CPU,cpu_edge,VCS,fail,4.1,Incorrect flag set
+1016,IO,io_basic,ModelSim,pass,1.2,
+1017,IO,io_stress,ModelSim,pass,18.0,
+1018,IO,io_random,ModelSim,pass,1.1,
+1019,IO,io_fault,ModelSim,fail,1.3,Fault not detected
+1020,IO,io_longrun,ModelSim,system_error,90.0,Timeout
+1021,ALU,alu_suspicious,ModelSim,fail,2.0,Multiple failures detected
+1022,Memory,mem_suspicious,Questa,fail,2.2,Unusual error pattern
+1023,CPU,cpu_suspicious,VCS,pass,2.5,
+1024,IO,io_suspicious,ModelSim,pass,2.1,
+1025,ALU,alu_no_issues,ModelSim,pass,2.4,
+1026,Memory,mem_no_issues,Questa,pass,2.6,
+1027,CPU,cpu_no_issues,VCS,pass,2.7,
+1028,IO,io_no_issues,ModelSim,pass,2.2,
+1201,ALU,alu_edge,ModelSim,fail,3.2,Incorrect result for edge case
+1202,Memory,mem_read,Questa,pass,3.8,
+1203,Memory,mem_write,Questa,pass,3.7,
+1204,Memory,mem_burst,Questa,fail,14.2,Burst write failed
+1205,Memory,mem_stress,Questa,system_error,67.0,Simulator crashed
+1206,Memory,mem_random,Questa,pass,3.5,
+1207,CPU,cpu_boot,VCS,pass,4.9,
+1208,CPU,cpu_interrupt,VCS,fail,5.2,Interrupt not handled
+1209,CPU,cpu_longrun,VCS,pass,127.0,
+1210,CPU,cpu_random,VCS,pass,4.6,
+1211,CPU,cpu_edge,VCS,fail,4.8,Incorrect flag set
+1212,IO,io_basic,ModelSim,pass,1.9,
+1213,IO,io_stress,ModelSim,pass,19.4,
+1214,IO,io_random,ModelSim,pass,1.8,
+1215,IO,io_fault,ModelSim,fail,2.0,Fault not detected
+1216,IO,io_longrun,ModelSim,system_error,97.0,Timeout
+1217,ALU,alu_suspicious,ModelSim,fail,2.7,Multiple failures detected
+1218,Memory,mem_suspicious,Questa,fail,2.9,Unusual error pattern
+1219,CPU,cpu_suspicious,VCS,pass,3.2,
+1220,IO,io_suspicious,ModelSim,pass,2.8,
+1221,ALU,alu_no_issues,ModelSim,pass,3.1,
+1222,Memory,mem_no_issues,Questa,pass,3.3,
+1223,CPU,cpu_no_issues,VCS,pass,3.4,
+1224,IO,io_no_issues,ModelSim,pass,2.9,
+1225,ALU,alu_basic,ModelSim,pass,3.1,
+1226,ALU,alu_overflow,ModelSim,fail,3.5,Overflow not detected
+1227,ALU,alu_stress,ModelSim,pass,17.2,
+1228,ALU,alu_random,ModelSim,pass,2.7,
+1229,ALU,alu_edge,ModelSim,fail,3.3,Incorrect result for edge case
+1230,Memory,mem_read,Questa,pass,3.9,
+1231,Memory,mem_write,Questa,pass,3.8,
+1232,Memory,mem_burst,Questa,fail,14.4,Burst write failed
+1233,Memory,mem_stress,Questa,system_error,68.0,Simulator crashed
+1234,Memory,mem_random,Questa,pass,3.6,
+1235,CPU,cpu_boot,VCS,pass,5.0,
+1236,CPU,cpu_interrupt,VCS,fail,5.3,Interrupt not handled
+1237,CPU,cpu_longrun,VCS,pass,128.0,
+1238,CPU,cpu_random,VCS,pass,4.7,
+1239,CPU,cpu_edge,VCS,fail,4.9,Incorrect flag set
+1240,IO,io_basic,ModelSim,pass,2.0,
+1241,IO,io_stress,ModelSim,pass,19.6,
+1242,IO,io_random,ModelSim,pass,1.9,
+1243,IO,io_fault,ModelSim,fail,2.1,Fault not detected
+1244,IO,io_longrun,ModelSim,system_error,98.0,Timeout
+1245,ALU,alu_suspicious,ModelSim,fail,2.8,Multiple failures detected
+1246,Memory,mem_suspicious,Questa,fail,3.0,Unusual error pattern
+1247,CPU,cpu_suspicious,VCS,pass,3.3,
+1248,IO,io_suspicious,ModelSim,pass,2.9,
+1249,ALU,alu_no_issues,ModelSim,pass,3.2,
+1250,Memory,mem_no_issues,Questa,pass,3.4,
+1251,CPU,cpu_no_issues,VCS,pass,3.5,
+1252,IO,io_no_issues,ModelSim,pass,3.0,
+1253,ALU,alu_basic,ModelSim,pass,3.2,
+1254,ALU,alu_overflow,ModelSim,fail,3.6,Overflow not detected
+1255,ALU,alu_stress,ModelSim,pass,17.5,
+1256,ALU,alu_random,ModelSim,pass,2.8,
+1257,ALU,alu_edge,ModelSim,fail,3.4,Incorrect result for edge case
+1258,Memory,mem_read,Questa,pass,4.0,
+1259,Memory,mem_write,Questa,pass,3.9,
+1260,Memory,mem_burst,Questa,fail,14.6,Burst write failed
+1261,Memory,mem_stress,Questa,system_error,69.0,Simulator crashed
+1262,Memory,mem_random,Questa,pass,3.7,
+1263,CPU,cpu_boot,VCS,pass,5.1,
+1264,CPU,cpu_interrupt,VCS,fail,5.4,Interrupt not handled
+1265,CPU,cpu_longrun,VCS,pass,129.0,
+1266,CPU,cpu_random,VCS,pass,4.8,
+1267,CPU,cpu_edge,VCS,fail,5.0,Incorrect flag set
+1268,IO,io_basic,ModelSim,pass,2.1,
+1269,IO,io_stress,ModelSim,pass,19.8,
+1270,IO,io_random,ModelSim,pass,2.0,
+1271,IO,io_fault,ModelSim,fail,2.2,Fault not detected
+1272,IO,io_longrun,ModelSim,system_error,99.0,Timeout
+1273,ALU,alu_suspicious,ModelSim,fail,2.9,Multiple failures detected
+1274,Memory,mem_suspicious,Questa,fail,3.1,Unusual error pattern
+1275,CPU,cpu_suspicious,VCS,pass,3.4,
+1276,IO,io_suspicious,ModelSim,pass,3.0,
+1277,ALU,alu_no_issues,ModelSim,pass,3.3,
+1278,Memory,mem_no_issues,Questa,pass,3.5,
+1279,CPU,cpu_no_issues,VCS,pass,3.6,
+1280,IO,io_no_issues,ModelSim,pass,3.1,
+1281,ALU,alu_basic,ModelSim,pass,3.3,
+1282,ALU,alu_overflow,ModelSim,fail,3.7,Overflow not detected
+1283,ALU,alu_stress,ModelSim,pass,17.8,
+1284,ALU,alu_random,ModelSim,pass,2.9,
+1285,ALU,alu_edge,ModelSim,fail,3.5,Incorrect result for edge case
+1286,Memory,mem_read,Questa,pass,4.1,
+1287,Memory,mem_write,Questa,pass,4.0,
+1288,Memory,mem_burst,Questa,fail,14.8,Burst write failed
+1289,Memory,mem_stress,Questa,system_error,70.0,Simulator crashed
+1290,Memory,mem_random,Questa,pass,3.8,
+1291,CPU,cpu_boot,VCS,pass,5.2,
+1292,CPU,cpu_interrupt,VCS,fail,5.5,Interrupt not handled
+1293,CPU,cpu_longrun,VCS,pass,130.0,
+1294,CPU,cpu_random,VCS,pass,4.9,
+1295,CPU,cpu_edge,VCS,fail,5.1,Incorrect flag set
+1296,IO,io_basic,ModelSim,pass,2.2,
+1297,IO,io_stress,ModelSim,pass,20.0,
+1298,IO,io_random,ModelSim,pass,2.1,
+1299,IO,io_fault,ModelSim,fail,2.3,Fault not detected
+1300,IO,io_longrun,ModelSim,system_error,100.0,Timeout
+1301,ALU,alu_basic,ModelSim,pass,3.4,
+1302,ALU,alu_overflow,ModelSim,fail,3.8,Overflow not detected
+1303,ALU,alu_stress,ModelSim,pass,18.0,
+1304,ALU,alu_random,ModelSim,pass,3.0,
+1305,ALU,alu_edge,ModelSim,fail,3.6,Incorrect result for edge case
+1306,Memory,mem_read,Questa,pass,4.2,
+1307,Memory,mem_write,Questa,pass,4.1,
+1308,Memory,mem_burst,Questa,fail,15.0,Burst write failed
+1309,Memory,mem_stress,Questa,system_error,71.0,Simulator crashed
+1310,Memory,mem_random,Questa,pass,3.9,
+1311,CPU,cpu_boot,VCS,pass,5.3,
+1312,CPU,cpu_interrupt,VCS,fail,5.6,Interrupt not handled
+1313,CPU,cpu_longrun,VCS,pass,131.0,
+1314,CPU,cpu_random,VCS,pass,5.0,
+1315,CPU,cpu_edge,VCS,fail,5.2,Incorrect flag set
+1316,IO,io_basic,ModelSim,pass,2.3,
+1317,IO,io_stress,ModelSim,pass,20.2,
+1318,IO,io_random,ModelSim,pass,2.2,
+1319,IO,io_fault,ModelSim,fail,2.4,Fault not detected
+1320,IO,io_longrun,ModelSim,system_error,101.0,Timeout
+1321,ALU,alu_suspicious,ModelSim,fail,3.0,Multiple failures detected
+1322,Memory,mem_suspicious,Questa,fail,3.2,Unusual error pattern
+1323,CPU,cpu_suspicious,VCS,pass,3.5,
+1324,IO,io_suspicious,ModelSim,pass,3.1,
+1325,ALU,alu_no_issues,ModelSim,pass,3.4,
+1326,Memory,mem_no_issues,Questa,pass,3.6,
+1327,CPU,cpu_no_issues,VCS,pass,3.7,
+1328,IO,io_no_issues,ModelSim,pass,3.2,
+1329,ALU,alu_basic,ModelSim,pass,3.5,
+1330,ALU,alu_overflow,ModelSim,fail,3.9,Overflow not detected
+1331,ALU,alu_stress,ModelSim,pass,18.2,
+1332,ALU,alu_random,ModelSim,pass,3.1,
+1333,ALU,alu_edge,ModelSim,fail,3.7,Incorrect result for edge case
+1334,Memory,mem_read,Questa,pass,4.3,
+1335,Memory,mem_write,Questa,pass,4.2,
+1336,Memory,mem_burst,Questa,fail,15.2,Burst write failed
+1337,Memory,mem_stress,Questa,system_error,72.0,Simulator crashed
+1338,Memory,mem_random,Questa,pass,4.0,
+1339,CPU,cpu_boot,VCS,pass,5.4,
+1340,CPU,cpu_interrupt,VCS,fail,5.7,Interrupt not handled
+1341,CPU,cpu_longrun,VCS,pass,132.0,
+1342,CPU,cpu_random,VCS,pass,5.1,
+1343,CPU,cpu_edge,VCS,fail,5.3,Incorrect flag set
+1344,IO,io_basic,ModelSim,pass,2.4,
+1345,IO,io_stress,ModelSim,pass,20.4,
+1346,IO,io_random,ModelSim,pass,2.3,
+1347,IO,io_fault,ModelSim,fail,2.5,Fault not detected
+1348,IO,io_longrun,ModelSim,system_error,102.0,Timeout
+1349,ALU,alu_suspicious,ModelSim,fail,3.1,Multiple failures detected
+1350,Memory,mem_suspicious,Questa,fail,3.3,Unusual error pattern
+1351,CPU,cpu_suspicious,VCS,pass,3.6,
+1352,IO,io_suspicious,ModelSim,pass,3.2,
+1353,ALU,alu_no_issues,ModelSim,pass,3.5,
+1354,Memory,mem_no_issues,Questa,pass,3.7,
+1355,CPU,cpu_no_issues,VCS,pass,3.8,
+1356,IO,io_no_issues,ModelSim,pass,3.3,
+1357,ALU,alu_basic,ModelSim,pass,3.6,
+1358,ALU,alu_overflow,ModelSim,fail,4.0,Overflow not detected
+1359,ALU,alu_stress,ModelSim,pass,18.4,
+1360,ALU,alu_random,ModelSim,pass,3.2,
+1361,ALU,alu_edge,ModelSim,fail,3.8,Incorrect result for edge case
+1362,Memory,mem_read,Questa,pass,4.4,
+1363,Memory,mem_write,Questa,pass,4.3,
+1364,Memory,mem_burst,Questa,fail,15.4,Burst write failed
+1365,Memory,mem_stress,Questa,system_error,73.0,Simulator crashed
+1366,Memory,mem_random,Questa,pass,4.1,
+1367,CPU,cpu_boot,VCS,pass,5.5,
+1368,CPU,cpu_interrupt,VCS,fail,5.8,Interrupt not handled
+1369,CPU,cpu_longrun,VCS,pass,133.0,
+1370,CPU,cpu_random,VCS,pass,5.2,
+1371,CPU,cpu_edge,VCS,fail,5.4,Incorrect flag set
+1372,IO,io_basic,ModelSim,pass,2.5,
+1373,IO,io_stress,ModelSim,pass,20.6,
+1374,IO,io_random,ModelSim,pass,2.4,
+1375,IO,io_fault,ModelSim,fail,2.6,Fault not detected
+1376,IO,io_longrun,ModelSim,system_error,103.0,Timeout
+1377,ALU,alu_suspicious,ModelSim,fail,3.2,Multiple failures detected
+1378,Memory,mem_suspicious,Questa,fail,3.4,Unusual error pattern
+1379,CPU,cpu_suspicious,VCS,pass,3.7,
+1380,IO,io_suspicious,ModelSim,pass,3.3,
+1381,ALU,alu_no_issues,ModelSim,pass,3.6,
+1382,Memory,mem_no_issues,Questa,pass,3.8,
+1383,CPU,cpu_no_issues,VCS,pass,3.9,
+1384,IO,io_no_issues,ModelSim,pass,3.4,
+1385,ALU,alu_basic,ModelSim,pass,3.7,
+1386,ALU,alu_overflow,ModelSim,fail,4.1,Overflow not detected
+1387,ALU,alu_stress,ModelSim,pass,18.6,
+1388,ALU,alu_random,ModelSim,pass,3.3,
+1389,ALU,alu_edge,ModelSim,fail,3.9,Incorrect result for edge case
+1390,Memory,mem_read,Questa,pass,4.5,
+1391,Memory,mem_write,Questa,pass,4.4,
+1392,Memory,mem_burst,Questa,fail,15.6,Burst write failed
+1393,Memory,mem_stress,Questa,system_error,74.0,Simulator crashed
+1394,Memory,mem_random,Questa,pass,4.2,
+1395,CPU,cpu_boot,VCS,pass,5.6,
+1396,CPU,cpu_interrupt,VCS,fail,5.9,Interrupt not handled
+1397,CPU,cpu_longrun,VCS,pass,134.0,
+1398,CPU,cpu_random,VCS,pass,5.3,
+1399,CPU,cpu_edge,VCS,fail,5.5,Incorrect flag set
+1400,IO,io_basic,ModelSim,pass,2.6,
+1401,IO,io_stress,ModelSim,pass,20.8,
+1402,IO,io_random,ModelSim,pass,2.5,
+1403,IO,io_fault,ModelSim,fail,2.7,Fault not detected
+1404,IO,io_longrun,ModelSim,system_error,104.0,Timeout
+1405,ALU,alu_suspicious,ModelSim,fail,3.3,Multiple failures detected
+1406,Memory,mem_suspicious,Questa,fail,3.5,Unusual error pattern
+1407,CPU,cpu_suspicious,VCS,pass,3.8,
+1408,IO,io_suspicious,ModelSim,pass,3.4,
+1409,ALU,alu_no_issues,ModelSim,pass,3.7,
+1410,Memory,mem_no_issues,Questa,pass,3.9,
+1411,CPU,cpu_no_issues,VCS,pass,4.0,
+1412,IO,io_no_issues,ModelSim,pass,3.5,
+1413,ALU,alu_basic,ModelSim,pass,3.8,
+1414,ALU,alu_overflow,ModelSim,fail,4.2,Overflow not detected
+1415,ALU,alu_stress,ModelSim,pass,18.8,
+1416,ALU,alu_random,ModelSim,pass,3.4,
+1417,ALU,alu_edge,ModelSim,fail,4.0,Incorrect result for edge case
+1418,Memory,mem_read,Questa,pass,4.6,
+1419,Memory,mem_write,Questa,pass,4.5,
+1420,Memory,mem_burst,Questa,fail,15.8,Burst write failed
+1421,Memory,mem_stress,Questa,system_error,75.0,Simulator crashed
+1422,Memory,mem_random,Questa,pass,4.3,
+1423,CPU,cpu_boot,VCS,pass,5.7,
+1424,CPU,cpu_interrupt,VCS,fail,6.0,Interrupt not handled
+1425,CPU,cpu_longrun,VCS,pass,135.0,
+1426,CPU,cpu_random,VCS,pass,5.4,
+1427,CPU,cpu_edge,VCS,fail,5.6,Incorrect flag set
+1428,IO,io_basic,ModelSim,pass,2.7,
+1429,IO,io_stress,ModelSim,pass,21.0,
+1430,IO,io_random,ModelSim,pass,2.6,
+1431,IO,io_fault,ModelSim,fail,2.8,Fault not detected
+1432,IO,io_longrun,ModelSim,system_error,105.0,Timeout
+1433,ALU,alu_suspicious,ModelSim,fail,3.4,Multiple failures detected
+1434,Memory,mem_suspicious,Questa,fail,3.6,Unusual error pattern
+1435,CPU,cpu_suspicious,VCS,pass,3.9,
+1436,IO,io_suspicious,ModelSim,pass,3.5,
+1437,ALU,alu_no_issues,ModelSim,pass,3.8,
+1438,Memory,mem_no_issues,Questa,pass,4.0,
+1439,CPU,cpu_no_issues,VCS,pass,4.1,
+1440,IO,io_no_issues,ModelSim,pass,3.6,
+1441,ALU,alu_basic,ModelSim,pass,3.9,
+1442,ALU,alu_overflow,ModelSim,fail,4.3,Overflow not detected
+1443,ALU,alu_stress,ModelSim,pass,19.0,
+1444,ALU,alu_random,ModelSim,pass,3.5,
+1445,ALU,alu_edge,ModelSim,fail,4.1,Incorrect result for edge case
+1446,Memory,mem_read,Questa,pass,4.7,
+1447,Memory,mem_write,Questa,pass,4.6,
+1448,Memory,mem_burst,Questa,fail,16.0,Burst write failed
+1449,Memory,mem_stress,Questa,system_error,76.0,Simulator crashed
+1450,Memory,mem_random,Questa,pass,4.4,
+1451,CPU,cpu_boot,VCS,pass,5.8,
+1452,CPU,cpu_interrupt,VCS,fail,6.1,Interrupt not handled
+1453,CPU,cpu_longrun,VCS,pass,136.0,
+1454,CPU,cpu_random,VCS,pass,5.5,
+1455,CPU,cpu_edge,VCS,fail,5.7,Incorrect flag set
+1456,IO,io_basic,ModelSim,pass,2.8,
+1457,IO,io_stress,ModelSim,pass,21.2,
+1458,IO,io_random,ModelSim,pass,2.7,
+1459,IO,io_fault,ModelSim,fail,2.9,Fault not detected
+1460,IO,io_longrun,ModelSim,system_error,106.0,Timeout
+1461,ALU,alu_suspicious,ModelSim,fail,3.5,Multiple failures detected
+1462,Memory,mem_suspicious,Questa,fail,3.7,Unusual error pattern
+1463,CPU,cpu_suspicious,VCS,pass,4.0,
+1464,IO,io_suspicious,ModelSim,pass,3.6,
+1465,ALU,alu_no_issues,ModelSim,pass,3.9,
+1466,Memory,mem_no_issues,Questa,pass,4.1,
+1467,CPU,cpu_no_issues,VCS,pass,4.2,
+1468,IO,io_no_issues,ModelSim,pass,3.7,
+1469,ALU,alu_basic,ModelSim,pass,4.0,
+1470,ALU,alu_overflow,ModelSim,fail,4.4,Overflow not detected
+1471,ALU,alu_stress,ModelSim,pass,19.2,
+1472,ALU,alu_random,ModelSim,pass,3.6,
+1473,ALU,alu_edge,ModelSim,fail,4.2,Incorrect result for edge case
+1474,Memory,mem_read,Questa,pass,4.8,
+1475,Memory,mem_write,Questa,pass,4.7,
+1476,Memory,mem_burst,Questa,fail,16.2,Burst write failed
+1477,Memory,mem_stress,Questa,system_error,77.0,Simulator crashed
+1478,Memory,mem_random,Questa,pass,4.5,
+1479,CPU,cpu_boot,VCS,pass,5.9,
+1480,CPU,cpu_interrupt,VCS,fail,6.2,Interrupt not handled
+1481,CPU,cpu_longrun,VCS,pass,137.0,
+1482,CPU,cpu_random,VCS,pass,5.6,
+1483,CPU,cpu_edge,VCS,fail,5.8,Incorrect flag set
+1484,IO,io_basic,ModelSim,pass,2.9,
+1485,IO,io_stress,ModelSim,pass,21.4,
+1486,IO,io_random,ModelSim,pass,2.8,
+1487,IO,io_fault,ModelSim,fail,3.0,Fault not detected
+1488,IO,io_longrun,ModelSim,system_error,107.0,Timeout
+1489,ALU,alu_suspicious,ModelSim,fail,3.6,Multiple failures detected
+1490,Memory,mem_suspicious,Questa,fail,3.8,Unusual error pattern
+1491,CPU,cpu_suspicious,VCS,pass,4.1,
+1492,IO,io_suspicious,ModelSim,pass,3.7,
+1493,ALU,alu_no_issues,ModelSim,pass,4.0,
+1494,Memory,mem_no_issues,Questa,pass,4.2,
+1495,CPU,cpu_no_issues,VCS,pass,4.3,
+1496,IO,io_no_issues,ModelSim,pass,3.8,
+1497,ALU,alu_basic,ModelSim,pass,4.1,
+1498,ALU,alu_overflow,ModelSim,fail,4.5,Overflow not detected
+1499,ALU,alu_stress,ModelSim,pass,19.4,
+1500,ALU,alu_random,ModelSim,pass,3.7,
